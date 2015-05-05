@@ -1,0 +1,7 @@
+*.bak
+*.dbg
+*.exe
+*.swp
+
+backup/*
+lib/*

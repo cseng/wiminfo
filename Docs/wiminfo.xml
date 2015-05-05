@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="wiminfo"><module name="wiminfo"><element name="WIMContainer.FFilePath"><short>The full path to the WIM file in the filesystem.</short>
+      </element><element name="WIMContainer.FDesiredAccess"><short>Flag indicating whether to read, write, or mount.</short><descr>WIMGAPI enables opening a WIM as read, write, or mount.</descr>
+      </element>
+    <element name="TWIMInfo.Embed"><short>Embeds the specified XML into a given image index.</short><descr>This procedure takes a string representing an XML file and an optional index. The XML file is embedded into the given image or into the WIM if the index is not given.</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>
